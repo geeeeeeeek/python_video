@@ -8,7 +8,7 @@
       <input placeholder="输入关键词" ref="keywordRef" @keyup.enter="search"/>
     </div>
     <div class="right-view">
-      <a href="/admin" type="a-link" style="line-height: 32px;width:60px;">后台入口</a>
+      <a href="/admin" target="__black" type="a-link" style="line-height: 32px;width:60px;">后台入口</a>
       <template v-if="userStore.user_token">
         <a-dropdown>
           <a class="ant-dropdown-link" @click="e => e.preventDefault()">

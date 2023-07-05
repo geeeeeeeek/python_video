@@ -1,29 +1,39 @@
 <template>
   <div class="footer-view">
     <div class="foot-link-box flex-view">
-      <a href="https://github.com/geeeeeeeek/python_video" class="foot-link" target="_blank">系统文档</a>
+      <a class="foot-link" @click="handleSource">源码</a>
       <div class="link-split"></div>
       <a href="/admin" class="foot-link" target="_blank">后台管理</a>
       <div class="link-split"></div>
-      <a href="" class="foot-link" target="_blank">关于我们</a>
+      <a class="foot-link" @click="handleSource">关于我们</a>
     </div>
     <div class="footer-infos">
-      <span>
-        <a style="color: rgb(174, 174, 174);">京ICP备12345678号</a>
-      </span>
-      <span>&nbsp;&nbsp;京公网安备123456&nbsp;&nbsp;新出发京零字第东123456号&nbsp;&nbsp;统一社会信用代码 123456789</span>
+<span>
+<a style="color: rgb(174, 174, 174);">鲁ICP备12345678号</a>
+</span>
+      <span>&nbsp;&nbsp;鲁公网安备123456&nbsp;&nbsp;新出发零字第东123456号&nbsp;&nbsp;作者微信: lengqin1024</span>
     </div>
-    <div class="address">2022-2023 © 北京代码演示 · All Rights Reserved</div>
+    <div class="address">2022-2023 © 梦想工作室 · All Rights Reserved</div>
   </div>
 </template>
 
 <script>
+import {Modal} from "ant-design-vue";
+
 export default {
   name: 'Footer',
   data () {
     return {}
   },
-  methods: {}
+  methods: {
+    handleSource(){
+      Modal.info({
+        title: '欢迎体验',
+        content: '使用过程中遇到问题，可以咨询作者：lengqin1024（微信）',
+        onOk() {},
+      });
+    }
+  }
 }
 </script>
 

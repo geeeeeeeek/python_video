@@ -76,8 +76,8 @@ const loginBtn = ref<Boolean>(false)
 const checked = ref<Boolean>(false)
 const data = reactive({
   loginForm: {
-    username: '',
-    password: ''
+    username: 'admin123',
+    password: 'admin123'
   },
   rules: {
     username: [
