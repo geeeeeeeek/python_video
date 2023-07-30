@@ -1,3 +1,4 @@
+> 学习过程中，遇到问题可以咨询作者：lengqin1024（微信）
 
 ### 功能介绍
 
@@ -67,12 +68,12 @@ npm run dev
 
 首页
 
-![]()
+![](https://raw.githubusercontent.com/geeeeeeeek/python_video/master/server/upload/cover/Screen%20Shot%202023-07-08%20at%209.32.02%20AM.png)
 
 
 后台页面
 
-![]()
+![](https://raw.githubusercontent.com/geeeeeeeek/python_video/master/server/upload/cover/Screen%20Shot%202023-07-08%20at%209.32.21%20AM.png)
 
 
 
