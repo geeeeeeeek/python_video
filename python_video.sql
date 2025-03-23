@@ -298,7 +298,7 @@ INSERT INTO `b_classification` VALUES (7, '科技', '2023-05-28 16:31:48.518767'
 DROP TABLE IF EXISTS `b_comment`;
 CREATE TABLE `b_comment`  (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `content` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `content` varchar(2) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `comment_time` datetime(6) NULL DEFAULT NULL,
   `like_count` int(11) NOT NULL,
   `thing_id` bigint(20) NULL DEFAULT NULL,
@@ -380,7 +380,7 @@ INSERT INTO `b_login_log` VALUES (10, 'admin111', '127.0.0.1', 'Mozilla/5.0 (Win
 DROP TABLE IF EXISTS `b_notice`;
 CREATE TABLE `b_notice`  (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `title` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `title` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `content` varchar(1000) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `create_time` datetime(6) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
