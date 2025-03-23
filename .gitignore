@@ -6,7 +6,6 @@
 /web/node_modules
 /server/.idea/
 /.idea/
-__pycache__
 .idea
 server/.idea
 .DS_Store
